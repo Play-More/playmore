@@ -5,7 +5,7 @@ namespace App\Entity;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * @ORM\Entity(repositoryClass="AccessoryRepository")
+ * @ORM\Entity(repositoryClass="App\Repository\AccessoryRepository")
  */
 class Accessory extends Item
 {

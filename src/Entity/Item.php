@@ -14,7 +14,7 @@ use Vich\UploaderBundle\Mapping\Annotation as Vich;
  * @Vich\Uploadable()
  * @ORM\InheritanceType("JOINED")
  * @ORM\DiscriminatorColumn(name="type", type="string")
- * @ORM\DiscriminatorMap({"game" = "Game", "accesory" = "Accessory"})
+ * @ORM\DiscriminatorMap({"game" = "Game", "accessory" = "Accessory"})
  */
 abstract class Item
 {
