@@ -1,11 +1,11 @@
 {
     "devDependencies": {
-        "@symfony/webpack-encore": "^0.22.0",
+        "@symfony/webpack-encore": "^4.2.0",
         "autoprefixer": "^9.4.4",
         "chromedriver": "^75.1.0",
         "node-sass": "^4.12.0",
-        "postcss-loader": "^3.0.0",
-        "sass-loader": "^7.0.1",
+        "postcss-loader": "^7.0.2",
+        "sass-loader": "^13.2.0",
         "tailwindcss": "^0.7.3",
         "webpack-notifier": "^1.6.0"
     },
